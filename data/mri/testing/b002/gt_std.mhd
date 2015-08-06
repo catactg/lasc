@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = True
+CompressedDataSize = 20575
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 1.25 1.25 1.37
+DimSize = 320 320 140
+AnatomicalOrientation = ???
+ElementType = MET_UCHAR
+ElementDataFile = gt_std.zraw
