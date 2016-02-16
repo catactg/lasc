@@ -13,6 +13,8 @@ For a detailed report, please refer to:
 
 Tobon-Gomez C, Geers AJ, Peters, J, Weese J, Pinto K, Karim R, Ammar M, Daoudi A, Margeta J, Sandoval Z, Stender B, Zheng Y, Zuluaga, MA, Betancur J, Ayache N, Chikh MA, Dillenseger J-L, Kelm BM, Mahmoudi S, Ourselin S, Schlaefer A, Schaeffter T, Razavi R, Rhode KS. Benchmark for Algorithms Segmenting the Left Atrium From 3D CT and MRI Datasets. IEEE Transactions on Medical Imaging, 34(7):1460–1473, 2015.
 
+The challenge is also featured on [Cardiac Atlas Project].
+
 The Python scripts in this repository take as input a segmentation and output the two evaluation metrics described in the paper.
 
 The data and code of the challenge have been made publicly available to serve as a benchmark for left atrial segmentation algorithms.
@@ -36,7 +38,13 @@ Data
 
 The benchmark consists of 30 CT and 30 MRI datasets. Per modality, 10 datasets are for training of segmentation algorithms and 20 datasets are for testing.
 
-Training and testing datasets, as well as results from algorithms evaluated during LASC'13, are hosted on the [Cardiac Atlas Project].
+The MRI datasets are publicly available on Figshare:
+
+* [Training][mri_training]
+* [Testing][mri_testing]
+* [Results][mri_results]
+
+The CT datasets have restricted access. Fill in [this form][ct_form] and email to catactg@gmail.com.
 
 Sample data from an arbitrary modality/institute/case were included in this repository to be able to run the scripts.
 
@@ -142,12 +150,18 @@ The scripts in this repository were successfully run with:
 
 An easy way of installing these dependencies is to install [Anaconda]. Make sure to add VTK with `conda install vtk`.
 
-[Cardiac Atlas Project]:http://www.cardiacatlas.org/web/guest/la-segmentation-challenge
-[Python]:http://www.python.org
-[NumPy]:http://www.numpy.org
-[scikit-learn]:http://scikit-learn.org/
-[VTK]:http://www.vtk.org
-[Anaconda]:https://store.continuum.io/cshop/anaconda
+[mri_training]: https://dx.doi.org/10.6084/m9.figshare.1492978
+[mri_testing]: https://dx.doi.org/10.6084/m9.figshare.1492989
+[mri_results]: https://dx.doi.org/10.6084/m9.figshare.1492974
+[ct_form]: http://www.cardiacatlas.org/wp-content/uploads/2015/10/LASC_agreement.pdf
+[Cardiac Atlas Project]: http://www.cardiacatlas.org/challenges/left-atrium-segmentation-challenge/
+[Python]: http://www.python.org
+[NumPy]: http://www.numpy.org
+[scikit-learn]: http://scikit-learn.org/
+[VTK]: http://www.vtk.org
+[Anaconda]: https://store.continuum.io/cshop/anaconda
+
+
 
 
 License
