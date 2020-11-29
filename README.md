@@ -44,7 +44,7 @@ The MRI datasets are publicly available on Figshare:
 * [Testing][mri_testing]
 * [Results][mri_results]
 
-The CT datasets have restricted access. Fill in [this form][ct_form] and email to catactg@gmail.com.
+The data agreement for CT datasets expired on September 2018. Therefore, we can not share these datasets anymore.
 
 Sample data from an arbitrary modality/institute/case were included in this repository to be able to run the scripts.
 
